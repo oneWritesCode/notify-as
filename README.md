@@ -1,5 +1,5 @@
 # Notify-AS: A Full-Stack Notification and Task Management Application
-![thumbnail](./public/assets/landingPage-97aea35d-691a-445a-8bee-0705f98797de)
+<img width="1643" height="782" alt="image" src="https://github.com/user-attachments/assets/452c31ca-31c1-4c04-b23e-b1f2d00ff93d" />
 
 ## 🗂️ Description
 

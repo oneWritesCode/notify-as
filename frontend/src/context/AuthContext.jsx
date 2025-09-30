@@ -40,7 +40,7 @@ export const AuthProvider = ({ children }) => {
   const login = async (userData) => {
     try {
       setError(null);
-      const res = await api.post('/login', userData);
+      const res = await api.post('/users/login', userData);
       setUser(res.data.user);
       return true;
     } catch (err) {

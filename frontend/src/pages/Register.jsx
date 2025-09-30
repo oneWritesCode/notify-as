@@ -27,7 +27,8 @@ const Register = () => {
     }
     try {
       setError(null);
-      await axios.post(`${API_BASE_URL}/users/register`, { username: formData.username, email: formData.email, password: formData.password }, { withCredentials: true });
+      await axios.post(`${API_BASE_URL}/users/register`,
+         { username: formData.username, email: formData.email, password: formData.password }, { withCredentials: true });
       navigate('/login');
     } catch (e) {
       setError(e.response?.data?.message || 'Registration failed');
